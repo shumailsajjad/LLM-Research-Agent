@@ -1,20 +1,22 @@
 ## 🧠 Starter Agent Projects
 
 Curious how LLM agents "think and act"?  
-These notebooks will help you build that intuition step-by-step.
+These notebooks will help you build that intuition step by step.
 
 📁 `starter_agent/` includes:
 
 1. **`01_building_an_agent_from_scratch.ipynb`**  
-   ➤ A pure Python ReAct-style agent.  
-   Learn how an LLM can reason step-by-step and take actions using simple prompts and tool functions.
+   A pure Python implementation of a ReAct-style agent.  
+   Learn how an LLM reasons through tasks and invokes tools using only thought-action-observation loops.
 
 2. **`02_building_with_langgraph.ipynb`**  
-   ➤ A chatbot powered by **LangGraph** that uses **Tavily AI** as a search tool.  
-   This shows how to add external tools into your LangGraph node flow to improve reasoning and answer quality.
-   
+   A LangGraph-powered chatbot enhanced with **Tavily AI** for web search.  
+   Demonstrates how to incorporate external tools into a graph-based agent workflow for smarter decision-making.
 
 ![Agent Flow](/starter_agent/graph.png)
 
+These examples are beginner-friendly and build a solid foundation before exploring the full research agent in `research_agent/`.
 
-Both notebooks are beginner-friendly and build a strong foundation before jumping into my master research agent.
+---
+
+📘 *The starter notebooks are adapted for personal learning from the “LangGraph Mastery” course by Andrei Dumitrescu.*
